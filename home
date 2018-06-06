@@ -1,0 +1,41 @@
+<script type="text/javascript">
+	var now = new Date();
+	var today = now.getDay();
+	var startTime = new Date();
+	var day = new Date();
+	var hour = day.getHours();
+	var minutes = day.getMinutes();
+	startTime.setHours(06);
+	startTime.setMinutes(30);
+	startTime.setSeconds(00);
+	var endTime = new Date();
+	endTime.setHours(18);
+	endTime.setMinutes(00);
+	endTime.setSeconds(00);
+
+	if (today == 0 && hour == 21 && minutes > 22 && minutes < 29)
+		{document.write('<img src="[[image:srch]]" width="100%" height="100%">');}
+       
+	else if (startTime < now && endTime > now)
+			{document.write('<img src="[[image:RisleyDay]]" width="100%" height="100%">');}
+	else
+			{document.write('<img src="[[image:RisleyNight]]" width="100%" height="100%">');}
+		
+</script>
+<h2><strong>Welcome</strong></h2>
+
+<hr />
+<p>Welcome to the Castle! That&#39;s right, you have reached the organization page for Risley Residential College for the Creative and Performing Arts. &nbsp;Risley Hall is a truly unique community full of inspiring and talented individuals. &nbsp;Our community is built upon a basic love and respect of all forms of artistic expression, and to engage as a community of artists, thespians, and musicians. &nbsp;While all members of the Risley community have an appreciation for art, residents of Risley come from all walks of life, are enrolled in a wide variety of degree programs, and express their creativity in numerous different ways. &nbsp;Risley residents and community members often remain connected with Risley even after moving on from Cornell, as evidenced by our robust Risley Alumni population. &nbsp;</p>
+
+<p>Just as Risley&#39;s community is unmatched, so are it&#39;s resources. &nbsp;Risley is home to an 81-seat black box theater, 12 fine arts work shops, a library, a performance space, a dance studio, lounges, and of course the famous Risley Dining Hall! &nbsp;Residents and out-of-house members of our community utilize these resources to host a bevvy of annual Risley events, such as Masquerave, A Night at Hogwarts, VD Ball, The Reading of Handel&#39;s Messiah, RisExpo, productions by our very own Risley Theatre,&nbsp;and many others. &nbsp;Risley community members also utilize these resources in order to satisfy whatever creative craving they may have. &nbsp;</p>
+
+<p>Risley&#39;s unique features do not stop there. &nbsp;Our community is mostly student-run. &nbsp;Our governing body is affectionately known as &quot;Kommittee&quot;. &nbsp;Kommittee meets weekly to discuss events, troubleshoot community concerns, brainstorm ideas, and to decide how funds and space are best utilized for the community. &nbsp;Kommittee is often themed, allowing for a bit of humor amidst the necessary business of the meeting. &nbsp;Kommittee is open to any Risley community member to attend!&nbsp;</p>
+
+<p>Living in Risley is truly a unique experience that would be hard to find just about anywhere else. &nbsp;We can&#39;t give away all of our secrets, but we invite you into The Castle to experience it for yourself!</p>
+
+<p>Find out more by using the navigation pane on the left hand side of the screen.</p>
+
+<h2><strong>News</strong></h2>
+
+<hr />
+<p>[[module:news]]</p>
