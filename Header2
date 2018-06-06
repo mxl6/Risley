@@ -1,0 +1,40 @@
+<body>
+  <div id="header">
+    <div id="org_title">
+
+<!-- this is where you change the organization name at the top of every page. Please leave it within the h1 tags to maintain styling. If you would like to upload a logo it can also go in here by using html -->
+
+<style>
+img { 
+    width:50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+<img src="http://os_extranet_images.s3.amazonaws.com/456463_original.png" alt="Risley Logo">
+
+    </div>
+  </div>
+  <div id="content_wrapper">
+
+<!-- this is the vertical navigation in the left sidebar for your site. to add a link simply re-create one of the lines that begins with <li> and ends with </li>, inside will be a link using the quick url format for OrgSync Links. More information can be found in the website builder help -->
+
+    <div id="navigation">
+      <ul>
+  <li><a href="[[page:home]]">Home</a></li>
+        <li><a href="[[page:About]]">About</a></li>
+        <li><a href="[[page:Rulers_of_the_Castle]]">Rulers of the Castle</a></li>
+        <li><a href="[[page:AIR]]">Artist-in-Residence</a></li>        
+        <li><a href="[[page:FFs]]">Faculty Fellows</a></li>
+        <li><a href="[[page:Leadership_and_Involvement]]">Leadership and Involvement</a></li>
+        <li><a href="[[page:Calendars]]">Events and Calendar</a></li>
+        <li><a href="[[page:Shops]]">Shops & Managers</a></li>
+        <li><a href="[[page:Out_Of_House_Memberships]]">Out-of-House Membership</a></li>
+        <li><a href="http://orgsync.rso.cornell.edu/org/risleytheatre">Risley Theatre</a></li>
+        <li><a href="[[page:Pictures]]">Pictures</a></li>
+        <li><a href="[[page:ContactUs]]">Contact Us</a></li>
+        <li class="login_link" style="border: 0px;"><a href="http://www.orgsync.com/login">Login to OrgSync</a></li></ul>
+    </div>
+    <div id="content"><div id="leftside">
