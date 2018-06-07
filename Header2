@@ -5,15 +5,14 @@
 <!-- this is where you change the organization name at the top of every page. Please leave it within the h1 tags to maintain styling. If you would like to upload a logo it can also go in here by using html -->
 
 <style>
-img { 
-    width:50%; 
+img {  
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 </style>
 
-<img src="http://os_extranet_images.s3.amazonaws.com/456463_original.png" alt="Risley Logo">
+<img src="http://os_extranet_images.s3.amazonaws.com/456463_original.png" alt="Risley Logo" width=480>
 
     </div>
   </div>
