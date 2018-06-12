@@ -61,6 +61,7 @@ background-size: cover;
     
     h1 {background-color: white; text-align:center;}
     h2 {background-color: white;text-align:center;}
+    h3 {background-color: white;text-align:center;}
     p {background-color: white;text-align:center;}
     li {background-color: white;text-align:center;}
     th {background-color: white;text-align:center;}
