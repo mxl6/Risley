@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script type="text/javascript">
+function backgr(){
+var backimg = [
+"https://raw.githubusercontent.com/mxl6/Risley/master/IMG_1243.JPG"
+,
+"https://raw.githubusercontent.com/mxl6/Risley/master/IMG_1258.jpg"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1263.JPG?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1265.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1277.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1281.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1284.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1295.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1304.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1310.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1313.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1318.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1322.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1353.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1374.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1379.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1380.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1390.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1397.jpg?raw=true"
+,
+"https://github.com/mxl6/Risley/blob/master/IMG_1399.jpg?raw=true"
+];
+var randimg =Math.floor(Math.random()*20);
+document.body.background = backimg[randimg];
+}
+</script>
+
 <style>
 body  {
-    background-image: url("https://raw.githubusercontent.com/mxl6/Risley/master/mxl5_Mural.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100%;
-    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+height: 100%;
+background-size: cover;
     }
-    h2 {
-    background-color: white
-    ;
-}
-
- p {
-    background-color: white
-    ;
-}
+    
+    h1 {background-color: white;style="text-align:center;"}
+    h2 {background-color: white;style="text-align:center;"}
+    p {background-color: white;style="text-align:center;"}
+    li {background-color: white;style="text-align:center;"}
 </style>
 </head>
 
-<body>
+<body onload="backgr()">
   <div id="header">
     <div id="org_title">
 
