@@ -59,10 +59,11 @@ height: 100%;
 background-size: cover;
     }
     
-    h1 {background-color: white;style="text-align:center;"}
-    h2 {background-color: white;style="text-align:center;"}
-    p {background-color: white;style="text-align:center;"}
-    li {background-color: white;style="text-align:center;"}
+    h1 {background-color: white; text-align:center;}
+    h2 {background-color: white;text-align:center;}
+    p {background-color: white;text-align:center;}
+    li {background-color: white;text-align:center;}
+    th {background-color: white;text-align:center;}
 </style>
 </head>
 
