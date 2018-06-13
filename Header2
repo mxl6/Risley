@@ -59,16 +59,58 @@ height: 100%;
 background-size: cover;
     }
     
-    h1 {background-color: white; text-align:center;}
-    h2 {background-color: white;text-align:center;}
-    h3 {background-color: white;text-align:center;}
-    h4 {background-color: white;text-align:center;}
-    p {background-color: white;text-align:center;}
-    li {background-color: white;text-align:center;}
-    th {background-color: white;text-align:center;}
-    span {background-color: white;text-align:center;}
-    a {background-color: white;text-align:center;}
-    label {background-color: white;text-align:center;}
+    h1 {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white; text-align:center;}
+    h2 {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    h3 {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    h4 {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    p {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center; }
+    li {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    th {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    span {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    a {btext-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    label {text-shadow:
+		-1px -1px 10px white,
+		1px -1px 10px white,
+		-1px 1px 10px white,
+		1px 1px 10px white;text-align:center;}
+    
+    
 </style>
 </head>
 
