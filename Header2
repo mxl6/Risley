@@ -59,58 +59,6 @@ height: 100%;
 background-size: cover;
     }
     
-    h1 {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white; text-align:center;}
-    h2 {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    h3 {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    h4 {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    p {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center; }
-    li {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    th {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    span {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    a {btext-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    label {text-shadow:
-		-1px -1px 10px white,
-		1px -1px 10px white,
-		-1px 1px 10px white,
-		1px 1px 10px white;text-align:center;}
-    
-    
 </style>
 </head>
 
@@ -125,6 +73,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 </style>
 
@@ -136,7 +85,7 @@ img {
 
 <!-- this is the vertical navigation in the left sidebar for your site. to add a link simply re-create one of the lines that begins with <li> and ends with </li>, inside will be a link using the quick url format for OrgSync Links. More information can be found in the website builder help -->
 
-<div id="navigation">
+<div id="navigation" style="background-color:white">
 <ul>
 <li><a href="[[page:home]]">Home</a></li>
 <li><a href="[[page:About]]">About</a></li>
@@ -152,4 +101,4 @@ img {
         <li><a href="[[page:ContactUs]]">Contact Us</a></li>
         <li class="login_link" style="border: 0px;"><a href="http://www.orgsync.com/login">Login to OrgSync</a></li></ul>
     </div>
-    <div id="content"><div id="leftside">
+    <div id="content"><div id="leftside" style="background-color:white">
