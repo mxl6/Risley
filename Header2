@@ -5,45 +5,27 @@
 <script type="text/javascript">
 function backgr(){
 var backimg = [
-"https://raw.githubusercontent.com/mxl6/Risley/master/IMG_1243.JPG"
-,
-"https://raw.githubusercontent.com/mxl6/Risley/master/IMG_1258.jpg"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1263.JPG?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1265.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1277.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1281.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1284.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1295.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1304.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1310.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1313.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1318.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1322.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1353.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1374.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1379.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1380.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1390.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1397.jpg?raw=true"
-,
-"https://github.com/mxl6/Risley/blob/master/IMG_1399.jpg?raw=true"
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1243.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1258.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1265.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1277.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1306.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1321.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1331.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1372.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1383.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1388.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1429.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1435.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1443.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1444.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1446.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1471.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1532.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1542.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_1549.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_4948.jpg",
+"https://raw.githubusercontent.com/mxl6/Risley-Photos/master/IMG_5078.jpg"
 ];
 var randimg =Math.floor(Math.random()*20);
 document.body.background = backimg[randimg];
