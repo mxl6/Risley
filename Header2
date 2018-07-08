@@ -87,18 +87,11 @@ img {
 
 <div id="navigation" style="background-color:white">
 <ul>
-<li><a href="[[page:home]]">Home</a></li>
-<li><a href="[[page:About]]">About</a></li>
-<li><a href="[[page:Rulers_of_the_Castle]]">Rulers of the Castle</a></li>
-<li><a href="[[page:AIR]]">Artist-in-Residence</a></li>        
-<li><a href="[[page:FFs]]">Faculty Fellows</a></li>
-<li><a href="[[page:Leadership_and_Involvement]]">Leadership and Involvement</a></li>
-<li><a href="[[page:Calendars]]">Events and Calendar</a></li>
-<li><a href="[[page:Shops]]">Shops & Managers</a></li>
-<li><a href="[[page:Out_Of_House_Memberships]]">Out-of-House Membership</a></li>
-<li><a href="http://orgsync.rso.cornell.edu/org/risleytheatre">Risley Theatre</a></li>
-        <li><a href="[[page:Pictures]]">Pictures</a></li>
-        <li><a href="[[page:ContactUs]]">Contact Us</a></li>
-        <li class="login_link" style="border: 0px;"><a href="http://www.orgsync.com/login">Login to OrgSync</a></li></ul>
+<li><a href="[[page:home_2]]">Home</a></li>
+<li><a href="[[page:People]]">People</a></li>
+<li><a href="[[page:Amenities]]">Amenities</a></li>
+<li><a href="[[page:Opportunities]]">Opportunities</a></li>
+<li><a href="[[page:Support]]">On Call and Support</a></li>
+<li><a href="[[page:Contact]]">Contact</a></li>
     </div>
     <div id="content"><div id="leftside" style="background-color:white">
