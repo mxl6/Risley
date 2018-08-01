@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<button class="accordion">People</button>
+<div class="panel">
+  <p><a href="[[page:RHD]]">RHD</a>
+  <br>
+    <a href="[[page:RA]]">SRA and RA's</a>
+    <br>
+    <a href="[[page:AIR]]">Artist-In-Residence</a>
+    <br>
+    <a href="[[page:Fellows]]">Fellows</a>
+    <br>
+    <a href="[[page:Volunteers]]">Volunteers</a></p>
+</div>
+
+<button class="accordion">Facilities</button>
+<div class="panel">
+  <p> <a href="[[page:Amenities]]">Amenities</a>
+  <br>
+    <a href="[[page:Security]]">Security</a>
+    <br>
+    <a href="[[page:Hazards]]">Hazards</a>
+    <br>
+    <a href="[[page:AIR]]">Photospheres</a>
+    <br>
+    <a href="[[page:Shops_2]]">Shops</a>
+    <br>
+    <a href="[[page:Theater]]">Theater</a></p>
+</div>
+
+<button class="accordion">Programs</button>
+<div class="panel">
+  <p><a href="[[page:Councils]]">Hall Councils</a>
+  <br>
+    <a href="[[page:RAP]]">RA Programs</a>
+    <br>
+    <a href="[[page:Major]]">Major Programs</a>
+    <br>
+    <a href="[[page:Weekly]]">Weekly</a>
+    <br>
+    <a href="[[page:Points]]">Rispoints</a>
+    </p>
+</div>
+
+<button class="accordion">Work with us!</button>
+<div class="panel">
+  <p><a href="[[page:Reservations]]">Space Reservations</a>
+  <br>
+    <a href="[[page:Advertising]]">Advertising</a>
+  <br>
+    <a href="[[page:Membership]]">Membership</a>
+    <br>
+    <a href="[[page:Descriptions]]">Position Descriptions</a>
+    </p>
+</div>
+</div>
+
+<button class="accordion">Media</button>
+<div class="panel">
+  <p><a href="[[page:Photos]]">Photos</a>
+  <br>
+    <a href="[[page:Gallery]]">Online Gallery</a>
+  <br>
+  <a href="[[page:Murals]]">Murals</a>
+  <br>
+    <a href="[[page:Archives]]">Archived Material</a>
+    </p>
+</div>
+
+<button class="accordion">Support and Contact</button>
+<div class="panel">
+  <p><a href="[[page:Support]]">Support</a>
+  <br>
+    <a href="[[page:Contact]]">Conatct</a>
+    </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
