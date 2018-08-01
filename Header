@@ -1,11 +1,13 @@
 <body>
   <div id="header">
-    <div id="org_title">
+    <div id="cornell_logo">
+</div>
+
 
 <!-- this is where you change the organization name at the top of every page. Please leave it within the h1 tags to maintain styling. If you would like to upload a logo it can also go in here by using html -->
 
-      <h1>Risley Residential College for the Creative and Performing Arts</h1>
-    </div>
+     <div id="lh_banner">
+</div>
   </div>
   <div id="content_wrapper">
 
@@ -13,18 +15,22 @@
 
     <div id="navigation">
       <ul>
-  <li><a href="[[page:home]]">Home</a></li>
-        <li><a href="[[page:About]]">About</a></li>
-        <li><a href="[[page:Rulers_of_the_Castle]]">Rulers of the Castle</a></li>
-        <li><a href="[[page:AIR]]">Artist-in-Residence</a></li>        
-        <li><a href="[[page:FFs]]">Faculty Fellows</a></li>
-        <li><a href="[[page:Leadership_and_Involvement]]">Leadership and Involvement</a></li>
-        <li><a href="[[page:Calendars]]">Events and Calendar</a></li>
-        <li><a href="[[page:Shops]]">Shops & Managers</a></li>
-        <li><a href="[[page:Out_Of_House_Memberships]]">Out-of-House Membership</a></li>
-        <li><a href="http://orgsync.rso.cornell.edu/org/risleytheatre">Risley Theatre</a></li>
-        <li><a href="[[page:Pictures]]">Pictures</a></li>
-        <li><a href="[[page:ContactUs]]">Contact Us</a></li>
-        <li class="login_link" style="border: 0px;"><a href="http://www.orgsync.com/login">Login to OrgSync</a></li></ul>
+        <li><a href="[[page:home]]">Home</a></li>
+
+<li><a href="[[page:LINKNAME]]">History of the Castle</a></li>
+<li><a href="[[page:people2]]">Live-in Staff</a></li>
+<li><a href="[[page:RisleyFellows]]">Risley Fellows</a></li>
+<li><a href="[[page:LINKNAME]]">Get Involved</a><li>
+<li><a href="[[page:Out_Of_House_Memberships]]">Out of House Members</a><li>
+<li><a href="[[page:LINKNAME]]">Risley Events</a></li>
+<li><a href="[[page:AIR]]">Facilities</a></li>
+<li><a href="[[page:LINKNAME]]">Alumni</a></li>
+<li><a href="[[page:LINKNAME]]">Contact Us</a></li>
+<li><a href="[[page:LINKNAME]]">Photos</a></li>
+
+                                      </ul>
+<br>
+
+<p style="text-align: center;"><a href="https://www.facebook.com/RisleyCornell/" target="_blank"><img src="https://s3.amazonaws.com/os-content-uploads/119124e7-6842-4fa4-ac56-3a58b8382cd2.png" style="height: 30px; width: 30px;" /></a>&nbsp; &nbsp; &nbsp;&nbsp;<a href="https://twitter.com/RisleyHall" target="_blank"><img src="https://s3.amazonaws.com/os-content-uploads/ab5dd6e2-7b08-42bf-8f27-045ac3d6aaec.png" style="height: 30px; width: 30px;" /></a>&nbsp; &nbsp; &nbsp;&nbsp;<a href="https://www.instagram.com//" target="_blank"><img src="https://s3.amazonaws.com/os-content-uploads/aafc8c06-3ad4-4394-8a96-09673ddebcd3.png" style="height: 30px; width: 30px;" /></a></p>
     </div>
     <div id="content"><div id="leftside">
